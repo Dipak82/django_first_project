@@ -20,5 +20,5 @@ def register(request):
 
 @login_required()
 def profile(request):
-    print('hello world')
+    
     return render(request, 'users/profile.html')
